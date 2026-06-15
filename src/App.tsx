@@ -191,10 +191,10 @@ export default function App() {
                   loop
                   muted
                   playsInline
-                  className="w-full h-full object-cover opacity-35"
+                  className="w-full h-full object-cover opacity-60"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
-                <div className="absolute inset-0 bg-black/60 pointer-events-none" />
+                <div className="absolute inset-0 bg-gradient-to-t from-background via-[#000]/10 to-transparent" />
+                <div className="absolute inset-0 bg-black/25 pointer-events-none" />
               </div>
 
               {/* Content */}
@@ -443,9 +443,9 @@ export default function App() {
                 muted
                 loop
                 playsInline
-                className="absolute inset-0 w-full h-full object-cover z-0 opacity-20 pointer-events-none"
+                className="absolute inset-0 w-full h-full object-cover z-0 opacity-55 pointer-events-none"
               />
-              <div className="absolute inset-0 bg-background/60 z-[1] pointer-events-none" />
+              <div className="absolute inset-0 bg-black/30 z-[1] pointer-events-none" />
 
               {/* Content Container */}
               <div className="relative z-10 max-w-2xl mx-auto space-y-8 flex flex-col items-center">
